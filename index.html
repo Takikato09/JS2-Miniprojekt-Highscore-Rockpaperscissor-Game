@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>TESTING 3</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Rock, Paper, Scissors Game </h1>
+            <h4>Hello, I am the computer. Can you beat me?</h4>
+        </header>
+
+        <form>
+            <label id="name-label" for="player-name">Name:</label>
+            <input type="text" id="player-name" placeholder="player name">
+            <button id="start-btn">Let's play!</button>
+            <h2 id="comp-vs">Computer VS.</h2>
+            <p>Choose between rock, paper or scissor</p>
+
+        </form>
+        <section class="btn-section">
+            <button id="rock-btn" class="btn">🪨</button>
+            <button id="paper-btn"  class="btn">🧻</button>
+            <button id="scissor-btn"  class="btn">✂️</button>
+        </section>
+
+        <div class="game-result">
+            <div>
+                Score
+                <span id="player-score" class="score-result">0</span>
+            </div>
+           <!--  <div>
+                Computer
+                <span id="comp-score" class="score-result">0</span>
+            </div> -->
+        </div>
+        <div class="bottom-part">
+            <br>
+            <h2 id="result-status"></h2>
+            <br>
+            <!--<button id="restart-btn">RESTART</button>-->
+        </div>
+        <div class="leader-board">
+            <h3>Highscores</h3>
+            <ol></ol>
+        </div>
+    </div>
+
+
+</body>
+</html>
